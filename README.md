@@ -1,7 +1,7 @@
 # DISCO-GAN
 This project is the implementation of the DISCO-GAN paper. Here we try to understand the cross domain relation between GAN's.
 
-## Fake Images
+## GAN sharing the domain knowledge
 ![Image of variations](https://raw.githubusercontent.com/code-asc/DISCO-GAN/master/Figure_1.png " ")
 
 ## Installation

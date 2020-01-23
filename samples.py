@@ -20,7 +20,7 @@ else:
 
 
 test_A, test_B = getCeleb('Male', -1, DOMAIN_A, DOMAIN_B, True)
-A = torch.FloatTensor(read_images( test_A[14:15], 64))
+A = torch.FloatTensor(read_images( test_A[11:12], 64))
 
 
 
@@ -31,7 +31,7 @@ img_list.append(vutils.make_grid(fake, padding=10, normalize=True))
 
 plt.subplot(1,2,1)
 plt.axis("off")
-plt.imshow(np.transpose(read_images(test_A[14:15])[0], (1,2,0)))
+plt.imshow(np.transpose(read_images(test_A[11:12])[0], (1,2,0)))
 plt.subplot(1,2,2)
 plt.axis("off")
 plt.imshow(np.transpose(img_list[-1],(1,2,0)))

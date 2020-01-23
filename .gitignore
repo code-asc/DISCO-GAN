@@ -1,0 +1,7 @@
+data/img_align_celeba/
+data/list_attr_celeba.txt
+.DS_Store
+.floydexpt
+.floydignore
+floyd.yml
+.floyddata
